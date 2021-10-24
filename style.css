@@ -1,0 +1,206 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.uni{
+    padding: 0 8%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+/* navbar */
+
+#nav{
+    background-color: whitesmoke;
+    padding: 15px 0;
+    overflow: auto;
+}
+
+#nav #logo{
+    float: right;
+    color: black;
+    font-size: 20px;
+}
+
+#menu ul li{
+    float: left;
+    padding-right: 50px;
+    list-style-type: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu ul li a:hover{
+    color: #E34133;
+}
+
+/* myself */
+
+#name{
+    margin-top: 90px;
+}
+
+#name .inf::first-letter{
+    font-size: 20px;
+}
+
+#name h1{
+    font-size: 50px;
+}
+#name .inf{
+    margin-top: 20px;
+    font-size: 10px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+#name .text{
+    margin-top: 20px;
+    font-size: 12px; 
+}
+/* image  */
+
+#img{
+    background-image: url(3.jpg);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    border: 3px double black;
+    border-radius: 100px;
+}
+
+/* midle  */
+
+.lrm{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-variant: small-caps;
+    text-indent: 60px;
+}
+
+.lrm::first-letter {
+    font-size: 250%;
+    color: #E34133;
+  }
+
+.mid{
+    margin: 10vh 0;
+    word-spacing: 1px;
+}
+
+.midbar{
+    padding: 10vh 0;
+    overflow: auto;
+}
+.w33{
+    width: 33.33%;
+    float: left;
+
+}
+
+#icon1{
+    font-size: 80px;
+    text-align: center;
+    color: #E34133;
+}
+
+#icon1:hover{
+    color: tomato;
+}
+
+.info{
+    text-align: center;
+}
+/* footer  */
+.logo1{
+    padding-top: 5vh;
+    font-size: 30px;
+    color: #E34133;
+}
+
+.foot{
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+.footbar{
+    padding: 20px;
+}
+.footbar ul{
+    list-style-type: none;
+    text-align: center;
+}
+.footbar ul li{
+    display: inline-block;
+    padding: 20px 20px;
+}
+.footbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footbar ul li a:hover{
+    color: #E34133;
+}
+.social a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+}
+.social{
+    padding: 20px ;
+}
+.social .blue:hover{
+    color: #4267B2
+}
+.social .red:hover{
+    color: #E34133;
+}
+.social .sky:hover{
+    color: #1DA1F2;
+}
+
+.copy{
+    font-size: 14px;
+    word-spacing: 5px;
+}
+
+/* subscribe  */
+.sub{
+    background-color: whitesmoke;
+    color: black;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.sub .head{
+    float: left;
+    width: 50%;
+}
+
+.head input[type="text"]{
+    padding: 1vh 10vh;
+}
+
+.head input[type="submit"]{
+    padding: 1vh 3vh;
+}
+.head input[type=submit]:hover{
+    background-color: black;
+    cursor:pointer;
+    color: white;
+}
+
